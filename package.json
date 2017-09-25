@@ -1,0 +1,35 @@
+{
+  "name": "critical-rendering-path",
+  "version": "1.0.0",
+  "description": "Critical rendering path, google pagespeed insight",
+  "scripts": {
+    "test": "node check.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankouskia/critical-rendering-path.git"
+  },
+  "keywords": [
+    "CriticalRenderingPath",
+    "PageSpeed",
+    "Performance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankouskia/critical-rendering-path/issues"
+  },
+  "homepage": "https://github.com/yankouskia/critical-rendering-path#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-critical": "^0.3.0",
+    "http-server": "^0.10.0",
+    "psi-local": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt-pagespeed": "^2.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "ngrok": "^2.2.22"
+  }
+}
